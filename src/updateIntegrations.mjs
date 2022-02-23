@@ -6,6 +6,7 @@ import { fromBase64, toBase64 } from './utils/base64.mjs';
  * @property {string} id
  * @property {string} name
  * @property {string} gitRepositoryURL
+ * @property {string} [documentationURL]
  * @property {string} createdAt - ISO 8601 date string.
  * @property {string} updatedAt - ISO 8601 date string.
  */

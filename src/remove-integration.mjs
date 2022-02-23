@@ -1,11 +1,13 @@
 import updateIntegrations from './updateIntegrations.mjs';
 
 const run = async () => {
+  const { INTEGRATION_ID: id } = process.env;
+
   await updateIntegrations(
     'feat: remove one of the integrations',
     (integrations) => {
       return integrations.filter((integration) => {
-        return integration.id !== process.env.INTEGRATION_ID;
+        return integration.id !== id;
       });
     }
   );

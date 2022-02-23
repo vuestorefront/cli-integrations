@@ -13,6 +13,11 @@ on:
         required: true
         description: 'Git Repository URL'
 
+      documentation_url:
+        type: 'string'
+        required: false
+        description: 'Documentation URL (optional)'
+
 jobs:
   main:
     runs-on: 'ubuntu-latest'
@@ -29,4 +34,5 @@ jobs:
         env:
           GITHUB_TOKEN: '${{ github.token }}'
           INTEGRATION_NAME: '${{ github.event.inputs.name }}'
+          INTEGRATION_DOCUMENTATION_URL: '${{ github.event.inputs.documentation_url }}'
           INTEGRATION_GIT_REPOSITORY_URL: '${{ github.event.inputs.git_repository_url }}'

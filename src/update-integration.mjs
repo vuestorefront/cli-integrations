@@ -1,19 +1,25 @@
 import updateIntegrations from './updateIntegrations.mjs';
 
 const run = async () => {
+  const {
+    INTEGRATION_ID: id,
+    INTEGRATION_NAME: name,
+    INTEGRATION_DOCUMENTATION_URL: documentationURL,
+    INTEGRATION_GIT_REPOSITORY_URL: gitRepositoryURL
+  } = process.env;
+
   await updateIntegrations(
     'feat: update one of the integrations',
     (integrations) => {
       return integrations.map((integration) => {
-        if (integration.id !== process.env.INTEGRATION_ID) return integration;
+        if (integration.id !== id) return integration;
 
         return {
           ...integration,
-          name: process.env.INTEGRATION_NAME?.trim() || integration.name,
-          gitRepositoryURL:
-            process.env.INTEGRATION_GIT_REPOSITORY_URL?.trim() ||
-            integration.gitRepositoryURL,
-          updatedAt: new Date().toISOString(),
+          name: name || integration.name,
+          gitRepositoryURL: gitRepositoryURL || integration.gitRepositoryURL,
+          documentationURL: documentationURL || integration.documentationURL,
+          updatedAt: new Date().toISOString()
         };
       });
     }
