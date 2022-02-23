@@ -5,5 +5,12 @@
     "gitRepositoryURL": "https://github.com/vuestorefront/template-commercetools.git",
     "createdAt": "2022-02-23T04:53:14.681Z",
     "updatedAt": "2022-02-23T04:53:14.681Z"
+  },
+  {
+    "id": "4f2c22b1-3083-4db1-bca5-7cb6fba086a2",
+    "name": "Salesforce Commerce Cloud (beta)",
+    "gitRepositoryURL": "https://github.com/ForkPoint/vsf-sfcc-template.git",
+    "createdAt": "2022-02-23T04:54:43.658Z",
+    "updatedAt": "2022-02-23T04:54:43.658Z"
   }
 ]
