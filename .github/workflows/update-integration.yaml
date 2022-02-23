@@ -11,12 +11,12 @@ on:
       name:
         type: 'string'
         required: false
-        description: 'Name'
+        description: "Name (won't change if empty)"
 
       git_repository_url:
         type: 'string'
         required: false
-        description: 'Git Repository URL'
+        description: "Git Repository URL (won't change if empty)"
 
 jobs:
   main:
