@@ -26,5 +26,12 @@
     "gitRepositoryURL": "https://github.com/spryker/vsf-theme.git",
     "createdAt": "2022-02-23T04:56:16.814Z",
     "updatedAt": "2022-02-23T04:56:16.814Z"
+  },
+  {
+    "id": "0a2083c5-4835-48fc-9143-212572fc66b9",
+    "name": "Magento 2 (beta)",
+    "gitRepositoryURL": "https://github.com/vuestorefront/template-magento.git",
+    "createdAt": "2022-02-23T04:57:08.922Z",
+    "updatedAt": "2022-02-23T04:57:08.922Z"
   }
 ]
