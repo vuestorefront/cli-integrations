@@ -1,6 +1,6 @@
 import { getOctokit } from '@actions/github';
 import { v4 } from 'uuid';
-import { fromBase64, toBase64 } from './base64.mjs';
+import { fromBase64, toBase64 } from './utils/base64.mjs';
 
 const run = async () => {
   const octokit = getOctokit(process.env.GITHUB_TOKEN);
