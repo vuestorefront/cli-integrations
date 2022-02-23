@@ -19,5 +19,12 @@
     "gitRepositoryURL": "https://github.com/vuestorefront/template-shopify.git",
     "createdAt": "2022-02-23T04:55:48.881Z",
     "updatedAt": "2022-02-23T04:55:48.881Z"
+  },
+  {
+    "id": "cec3a0c9-9b30-4415-9597-171965385c55",
+    "name": "Spryker (beta)",
+    "gitRepositoryURL": "https://github.com/spryker/vsf-theme.git",
+    "createdAt": "2022-02-23T04:56:16.814Z",
+    "updatedAt": "2022-02-23T04:56:16.814Z"
   }
 ]
