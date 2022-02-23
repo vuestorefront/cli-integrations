@@ -47,12 +47,5 @@
     "gitRepositoryURL": "https://github.com/vuestorefront/template-kibocommerce.git",
     "createdAt": "2022-02-23T04:58:04.971Z",
     "updatedAt": "2022-02-23T04:58:04.971Z"
-  },
-  {
-    "id": "9e2d98b0-3918-4405-a1cc-93bfec57d305",
-    "name": "BigCommerce",
-    "gitRepositoryURL": "https://github.com/vuestorefront/template-bigcommerce.git",
-    "createdAt": "2022-02-23T04:58:35.815Z",
-    "updatedAt": "2022-02-23T04:58:35.815Z"
   }
 ]
