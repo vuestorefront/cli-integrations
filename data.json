@@ -50,9 +50,9 @@
   },
   {
     "id": "21ab11ca-61cc-4809-b589-7b699b95667a",
-    "name": "BigCommerce",
+    "name": "BigCommerce (beta)",
     "gitRepositoryURL": "https://github.com/vuestorefront/template-bigcommerce.git",
     "createdAt": "2022-02-23T05:00:10.145Z",
-    "updatedAt": "2022-02-23T05:00:10.145Z"
+    "updatedAt": "2022-02-23T05:00:53.335Z"
   }
 ]
