@@ -33,5 +33,12 @@
     "gitRepositoryURL": "https://github.com/vuestorefront/template-magento.git",
     "createdAt": "2022-02-23T04:57:08.922Z",
     "updatedAt": "2022-02-23T04:57:08.922Z"
+  },
+  {
+    "id": "ef645ab7-02cc-42ea-afc0-450bce6a5eb8",
+    "name": "Vendure",
+    "gitRepositoryURL": "https://github.com/vuestorefront/template-vendure.git",
+    "createdAt": "2022-02-23T04:57:38.434Z",
+    "updatedAt": "2022-02-23T04:57:38.434Z"
   }
 ]
