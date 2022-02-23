@@ -1,0 +1,38 @@
+name: 'Update Integration'
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        type: 'string'
+        required: true
+        description: 'ID'
+
+      name:
+        type: 'string'
+        required: false
+        description: 'Name'
+
+      git_repository_url:
+        type: 'string'
+        required: false
+        description: 'Git Repository URL'
+
+jobs:
+  main:
+    runs-on: 'ubuntu-latest'
+    steps:
+      - uses: 'actions/checkout@v2'
+
+      - uses: 'actions/setup-node@v2'
+        with:
+          node-version: 16
+
+      - run: 'npm ci'
+
+      - run: 'node ./src/update-integration.mjs'
+        env:
+          GITHUB_TOKEN: '${{ github.token }}'
+          INTEGRATION_ID: '${{ github.event.inputs.id }}'
+          INTEGRATION_NAME: '${{ github.event.inputs.name }}'
+          INTEGRATION_GIT_REPOSITORY_URL: '${{ github.event.inputs.git_repository_url }}'
