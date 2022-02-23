@@ -1,5 +1,9 @@
 {
   "name": "@vue-storefront/integrations",
   "private": true,
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "@actions/github": "^5.0.0",
+    "uuid": "^8.3.2"
+  }
 }
