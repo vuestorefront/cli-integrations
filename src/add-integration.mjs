@@ -2,17 +2,22 @@ import { v4 } from 'uuid';
 import updateIntegrations from './updateIntegrations.mjs';
 
 const run = async () => {
-  await updateIntegrations('feat: add a new integration', (integrations) => {
-    const newIntegration = {
-      id: v4(),
-      name: process.env.INTEGRATION_NAME,
-      gitRepositoryURL: process.env.INTEGRATION_GIT_REPOSITORY_URL,
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString(),
-    };
+  const { INTEGRATION_NAME, INTEGRATION_GIT_REPOSITORY_URL } = process.env;
 
-    return [...integrations, newIntegration];
-  });
+  await updateIntegrations(
+    `feat: add '${INTEGRATION_NAME}' integration`,
+    (integrations) => {
+      const newIntegration = {
+        id: v4(),
+        name: INTEGRATION_NAME,
+        gitRepositoryURL: INTEGRATION_GIT_REPOSITORY_URL,
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString()
+      };
+
+      return [...integrations, newIntegration];
+    }
+  );
 };
 
 run().catch((error) => {
