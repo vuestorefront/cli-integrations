@@ -40,5 +40,12 @@
     "gitRepositoryURL": "https://github.com/vuestorefront/template-vendure.git",
     "createdAt": "2022-02-23T04:57:38.434Z",
     "updatedAt": "2022-02-23T04:57:38.434Z"
+  },
+  {
+    "id": "82a54107-3f06-4853-bf93-ccce10c35f48",
+    "name": "Kibo Commerce (beta)",
+    "gitRepositoryURL": "https://github.com/vuestorefront/template-kibocommerce.git",
+    "createdAt": "2022-02-23T04:58:04.971Z",
+    "updatedAt": "2022-02-23T04:58:04.971Z"
   }
 ]
