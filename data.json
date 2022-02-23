@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "dd3030ca-631c-4436-a518-50d52385f95f",
+    "name": "Commercetools",
+    "gitRepositoryURL": "https://github.com/vuestorefront/template-commercetools.git",
+    "createdAt": "2022-02-23T04:53:14.681Z",
+    "updatedAt": "2022-02-23T04:53:14.681Z"
+  }
+]
