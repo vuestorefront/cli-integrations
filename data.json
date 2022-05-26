@@ -53,5 +53,13 @@
     "id": "03f412bc-a97a-49a2-94e9-84c473a6dd5a",
     "createdAt": "2022-05-26T13:55:00.658Z",
     "updatedAt": "2022-05-26T13:55:00.658Z"
+  },
+  {
+    "name": "Spree",
+    "gitRepositoryURL": "https://github.com/vuestorefront/spree",
+    "documentationURL": "https://docs.vuestorefront.io/spree/",
+    "id": "14277823-83f1-4398-95e3-c8a17e4f6439",
+    "createdAt": "2022-05-26T13:56:43.169Z",
+    "updatedAt": "2022-05-26T13:56:43.169Z"
   }
 ]
