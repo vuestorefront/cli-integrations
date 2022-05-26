@@ -37,5 +37,13 @@
     "gitRepositoryURL": "https://github.com/vuestorefront/template-kibocommerce.git",
     "createdAt": "2022-02-23T04:58:04.971Z",
     "updatedAt": "2022-02-23T04:58:04.971Z"
+  },
+  {
+    "name": "Odoo",
+    "gitRepositoryURL": "https://github.com/vuestorefront-community/template-odoo",
+    "documentationURL": "https://docs.vuestorefront.io/odoo",
+    "id": "ced75c04-a52d-41e6-b36a-cb4ff2dfbf40",
+    "createdAt": "2022-05-26T13:53:47.599Z",
+    "updatedAt": "2022-05-26T13:53:47.599Z"
   }
 ]
