@@ -45,5 +45,13 @@
     "id": "ced75c04-a52d-41e6-b36a-cb4ff2dfbf40",
     "createdAt": "2022-05-26T13:53:47.599Z",
     "updatedAt": "2022-05-26T13:53:47.599Z"
+  },
+  {
+    "name": "Prestashop",
+    "gitRepositoryURL": "https://github.com/vuestorefront-community/template-prestashop",
+    "documentationURL": "https://docs.vuestorefront.io/prestashop",
+    "id": "03f412bc-a97a-49a2-94e9-84c473a6dd5a",
+    "createdAt": "2022-05-26T13:55:00.658Z",
+    "updatedAt": "2022-05-26T13:55:00.658Z"
   }
 ]
