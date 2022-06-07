@@ -1,13 +1,5 @@
 [
   {
-    "id": "dd3030ca-631c-4436-a518-50d52385f95f",
-    "name": "Commercetools",
-    "gitRepositoryURL": "https://github.com/vuestorefront/template-commercetools.git",
-    "createdAt": "2022-02-23T04:53:14.681Z",
-    "updatedAt": "2022-02-24T00:05:57.879Z",
-    "documentationURL": "https://docs.vuestorefront.io/v2/commercetools/"
-  },
-  {
     "id": "808ce800-24b0-4228-aa61-966f399b3ea3",
     "name": "Shopify",
     "gitRepositoryURL": "https://github.com/vuestorefront/template-shopify.git",
