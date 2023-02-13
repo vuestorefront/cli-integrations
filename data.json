@@ -45,5 +45,13 @@
     "id": "14277823-83f1-4398-95e3-c8a17e4f6439",
     "createdAt": "2022-05-26T13:56:43.169Z",
     "updatedAt": "2022-05-26T13:56:43.169Z"
+  },
+  {
+    "name": "Magento 2",
+    "gitRepositoryURL": "https://github.com/vuestorefront/storefront-nuxt2-magento2.git",
+    "documentationURL": "https://docs.vuestorefront.io/magento/",
+    "id": "37ddb6a5-7816-4c22-9d5e-cd60708befd8",
+    "createdAt": "2023-02-13T08:28:40.819Z",
+    "updatedAt": "2023-02-13T08:28:40.819Z"
   }
 ]
