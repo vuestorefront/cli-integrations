@@ -53,5 +53,12 @@
     "id": "14277823-83f1-4398-95e3-c8a17e4f6439",
     "createdAt": "2022-05-26T13:56:43.169Z",
     "updatedAt": "2022-05-26T13:56:43.169Z"
-  }
+  },
+  {
+    "name": "Next 13 Storefront Boilerplate",
+    "gitRepositoryURL": "https://github.com/vuestorefront/storefront-next13-boilerplate.git",
+    "documentationURL": "https://github.com/vuestorefront/storefront-next13-boilerplate/blob/develop/GUIDE.md",
+    "id": "630819491",
+    "createdAt": "2023-04-21T08:17:00Z",
+    "updatedAt": "2023-08-11T05:26:22Z"
 ]
