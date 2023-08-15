@@ -5,7 +5,8 @@
     "documentationURL": "https://docs.vuestorefront.io/magento/",
     "id": "37ddb6a5-7816-4c22-9d5e-cd60708befd8",
     "createdAt": "2023-02-13T08:28:40.819Z",
-    "updatedAt": "2023-02-13T08:28:40.819Z"
+    "updatedAt": "2023-02-13T08:28:40.819Z",
+    "type": "VSF2"
   },
   {
     "id": "808ce800-24b0-4228-aa61-966f399b3ea3",
@@ -13,7 +14,8 @@
     "gitRepositoryURL": "https://github.com/vuestorefront/template-shopify.git",
     "createdAt": "2022-02-23T04:55:48.881Z",
     "updatedAt": "2022-02-24T00:10:31.612Z",
-    "documentationURL": "https://docs.vuestorefront.io/shopify/"
+    "documentationURL": "https://docs.vuestorefront.io/shopify/",
+    "type": "VSF2"
   },
   {
     "id": "ef645ab7-02cc-42ea-afc0-450bce6a5eb8",
@@ -21,14 +23,16 @@
     "gitRepositoryURL": "https://github.com/vuestorefront/template-vendure.git",
     "createdAt": "2022-02-23T04:57:38.434Z",
     "updatedAt": "2022-02-24T00:13:07.972Z",
-    "documentationURL": "https://docs.vuestorefront.io/vendure/"
+    "documentationURL": "https://docs.vuestorefront.io/vendure/",
+    "type": "VSF2"
   },
   {
     "id": "82a54107-3f06-4853-bf93-ccce10c35f48",
     "name": "Kibo Commerce (beta)",
     "gitRepositoryURL": "https://github.com/vuestorefront/template-kibocommerce.git",
     "createdAt": "2022-02-23T04:58:04.971Z",
-    "updatedAt": "2022-02-23T04:58:04.971Z"
+    "updatedAt": "2022-02-23T04:58:04.971Z",
+    "type": "VSF2"
   },
   {
     "name": "Odoo",
@@ -36,7 +40,8 @@
     "documentationURL": "https://docs.vuestorefront.io/odoo",
     "id": "ced75c04-a52d-41e6-b36a-cb4ff2dfbf40",
     "createdAt": "2022-05-26T13:53:47.599Z",
-    "updatedAt": "2022-05-26T13:53:47.599Z"
+    "updatedAt": "2022-05-26T13:53:47.599Z",
+    "type": "VSF2"
   },
   {
     "name": "Prestashop",
@@ -44,7 +49,8 @@
     "documentationURL": "https://docs.vuestorefront.io/prestashop",
     "id": "03f412bc-a97a-49a2-94e9-84c473a6dd5a",
     "createdAt": "2022-05-26T13:55:00.658Z",
-    "updatedAt": "2022-05-26T13:55:00.658Z"
+    "updatedAt": "2022-05-26T13:55:00.658Z",
+    "type": "VSF2"
   },
   {
     "name": "Spree",
@@ -52,7 +58,8 @@
     "documentationURL": "https://docs.vuestorefront.io/spree/",
     "id": "14277823-83f1-4398-95e3-c8a17e4f6439",
     "createdAt": "2022-05-26T13:56:43.169Z",
-    "updatedAt": "2022-05-26T13:56:43.169Z"
+    "updatedAt": "2022-05-26T13:56:43.169Z",
+    "type": "VSF2"
   },
   {
     "name": "Next 13 Storefront Boilerplate",
@@ -60,5 +67,6 @@
     "documentationURL": "https://github.com/vuestorefront/storefront-next13-boilerplate/blob/develop/GUIDE.md",
     "id": "630819491",
     "createdAt": "2023-04-21T08:17:00Z",
-    "updatedAt": "2023-08-11T05:26:22Z"
+    "updatedAt": "2023-08-11T05:26:22Z",
+    "type": "SDK"
 ]
